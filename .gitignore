@@ -1,18 +1,14 @@
-
 venv/
 env/
-
 
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-
 *.log
 *.tmp
 *.bak
-
 
 data/
 datasets/
@@ -24,13 +20,10 @@ datasets/
 *.pt
 *.ckpt
 
-
 .ipynb_checkpoints/
-
 
 .DS_Store
 Thumbs.db
-
 
 .env
 *.json
