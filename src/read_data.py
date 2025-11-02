@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("D:/TryCatch/data/features.csv")
-print(data.head(2))
-print(data.info)
+df = pd.read_csv("D:/TryCatch/data/features.csv")
+print(df.head(5))
+df.drop_duplicates()
+
+# print(df.info)
